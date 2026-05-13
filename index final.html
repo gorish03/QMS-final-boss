@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QMS India Limited — ISO Consulting, Safety Audits & Sustainability Since 1998</title>
+<meta name="description" content="India's trusted partner for ISO certification, safety audits, NDT inspection, and sustainability consulting since 1998. 2022 National Award recipient. Serving Mahindra, Eicher, Hindustan Zinc & 2,500+ projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  /* ─── TYPOGRAPHY ─── */
+  --font-head:'Montserrat',system-ui,-apple-system,sans-serif;
+  --font-body:'Inter',system-ui,-apple-system,sans-serif;
+
+  /* ─── INDUSTRIAL PALETTE (default) ─── */
+  --navy:#0B1D3A;
+  --navy-light:#152947;
+  --navy-deep:#061226;
+  --blue:#1B5EEA;
+  --blue-light:#3B7FF5;
+  --orange:#F97316;
+  --orange-dark:#EA580C;
+  --orange-light:#FB923C;
+
+  /* ─── DIGITAL / IoT THEME (dark mode + neon) ─── */
+  --digital-bg:#050B1F;
+  --digital-bg-2:#0A1633;
+  --digital-accent:#00E5FF;
+  --digital-accent-2:#6366F1;
+  --digital-glow:rgba(0,229,255,.35);
+
+  /* ─── SUSTAINABILITY THEME (forest + earth) ─── */
+  --forest:#166534;
+  --forest-light:#22C55E;
+  --forest-dark:#14532D;
+  --earth:#78350F;
+  --earth-light:#B45309;
+  --earth-soft:#FEF3C7;
+
+  /* ─── AWARD / PRESTIGE (gold + bronze) ─── */
+  --gold:#D4A017;
+  --gold-light:#F5C842;
+  --gold-deep:#92400E;
+  --bronze:#B45309;
+
+  /* ─── NEUTRALS ─── */
+  --white:#FFFFFF;
+  --gray-50:#F8FAFC;
+  --gray-100:#F1F5F9;
+  --gray-200:#E2E8F0;
+  --gray-300:#CBD5E1;
+  --gray-400:#94A3B8;
+  --gray-600:#475569;
+  --gray-700:#334155;
+  --gray-800:#1E293B;
+  --gray-900:#0F172A;
+  --green:#16A34A;
+
+  /* ─── SHAPE & ELEVATION ─── */
+  --radius-sm:4px;
+  --radius-md:10px;
+  --radius-lg:16px;
+  --shadow-sm:0 1px 3px rgba(11,29,58,.06);
+  --shadow-md:0 6px 20px rgba(11,29,58,.08);
+  --shadow-lg:0 18px 50px rgba(11,29,58,.14);
+  --shadow-brutal:4px 4px 0 0 var(--navy);
+  --shadow-brutal-orange:4px 4px 0 0 var(--orange);
+  --max-w:1200px;
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--font-body);color:var(--gray-900);background:var(--white);line-height:1.6;font-size:16px;overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;height:auto;display:block}
+ul{list-style:none}
+button{border:none;background:none;cursor:pointer;font-family:inherit}
+
+/* ─── UTILITY ─── */
+.container{max-width:var(--max-w);margin:0 auto;padding:0 24px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.section{padding:88px 0}
+.section-sm{padding:48px 0}
+.tag{display:inline-block;font-family:var(--font-body);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);background:rgba(27,94,234,.08);padding:5px 13px;border-radius:100px;margin-bottom:18px;border:1px solid rgba(27,94,234,.18)}
+.tag-orange{color:var(--orange);background:rgba(249,115,22,.1);border-color:rgba(249,115,22,.25)}
+.tag-gold{color:var(--gold-deep);background:linear-gradient(135deg,rgba(245,200,66,.18),rgba(212,160,23,.12));border-color:rgba(212,160,23,.35)}
+h1,h2,h3,h4{font-family:var(--font-head);line-height:1.15;letter-spacing:-.01em}
+.section-title{font-family:var(--font-head);font-size:clamp(28px,4vw,42px);font-weight:800;color:var(--navy);margin-bottom:14px;letter-spacing:-.02em}
+.section-sub{font-size:17px;color:var(--gray-600);max-width:620px;line-height:1.7;font-weight:400}
+.text-center{text-align:center}
+.text-center .section-sub{margin:0 auto}
+
+/* ─── BUTTONS (tactile hover) ─── */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:var(--radius-sm);font-family:var(--font-body);font-size:14.5px;font-weight:600;letter-spacing:.01em;transition:transform .18s ease,box-shadow .18s ease,background .2s,color .2s,border-color .2s;cursor:pointer;white-space:nowrap;position:relative;will-change:transform}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 2px 0 0 #0c3da8,0 4px 12px rgba(27,94,234,.25)}
+.btn-primary:hover{background:var(--blue-light);transform:translateY(-2px);box-shadow:0 4px 0 0 #0c3da8,0 10px 22px rgba(27,94,234,.4)}
+.btn-secondary{background:transparent;color:var(--navy);border:2px solid var(--navy)}
+.btn-secondary:hover{background:var(--navy);color:#fff;transform:translateY(-2px);box-shadow:0 8px 18px rgba(11,29,58,.25)}
+.btn-white{background:#fff;color:var(--navy);box-shadow:0 2px 0 0 rgba(0,0,0,.06)}
+.btn-white:hover{background:var(--gray-100);transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.btn-orange{background:var(--orange);color:#fff;box-shadow:0 2px 0 0 #b34009,0 4px 12px rgba(249,115,22,.3)}
+.btn-orange:hover{background:var(--orange-dark);transform:translateY(-2px);box-shadow:0 4px 0 0 #8a3107,0 10px 22px rgba(249,115,22,.45)}
+.btn-gold{background:linear-gradient(135deg,var(--gold-light),var(--gold));color:#3d2906;font-weight:700;box-shadow:0 2px 0 0 var(--gold-deep),0 4px 14px rgba(212,160,23,.4)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 4px 0 0 var(--gold-deep),0 12px 24px rgba(212,160,23,.55)}
+
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.card{background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:28px;transition:all .25s}
+.card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
+.fade-in{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.fade-in.visible{opacity:1;transform:none}
+
+/* ─── AWARD STRIP (prestige) ─── */
+.award-strip{background:linear-gradient(90deg,var(--gold-deep) 0%,var(--bronze) 35%,var(--gold) 65%,var(--gold-light) 100%);display:flex;align-items:center;justify-content:center;gap:10px;padding:9px 16px;font-size:13px;font-weight:600;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.25);position:relative;overflow:hidden}
+.award-strip::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent 0,transparent 30px,rgba(255,255,255,.06) 30px,rgba(255,255,255,.06) 60px);pointer-events:none}
+.award-strip span{opacity:.95;position:relative;z-index:1}
+.award-strip strong{position:relative;z-index:1;letter-spacing:.02em}
+
+/* ─── HEADER (glassmorphism) ─── */
+.header{position:sticky;top:0;z-index:1000;background:rgba(11,29,58,.78);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid rgba(255,255,255,.08);box-shadow:0 1px 0 0 rgba(0,0,0,.05),0 8px 24px -12px rgba(0,0,0,.3)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-mark{width:42px;height:42px;background:linear-gradient(135deg,var(--blue) 0%,var(--blue-light) 100%);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(27,94,234,.4),inset 0 1px 0 rgba(255,255,255,.2)}
+.logo-mark span{font-family:var(--font-head);font-weight:900;font-size:14px;color:#fff;letter-spacing:-.02em}
+.logo-text{font-family:var(--font-head);font-weight:700;font-size:15px;color:#fff;line-height:1.2;letter-spacing:-.01em}
+.logo-text small{display:block;font-family:var(--font-body);font-size:10px;font-weight:400;color:rgba(255,255,255,.55);letter-spacing:.08em;text-transform:uppercase;margin-top:1px}
+.nav{display:flex;align-items:center;gap:2px}
+.nav-link{font-family:var(--font-body);font-size:13.5px;font-weight:500;color:rgba(255,255,255,.78);padding:8px 14px;border-radius:6px;transition:all .2s;white-space:nowrap;letter-spacing:.01em}
+.nav-link:hover,.nav-link.active{color:#fff;background:rgba(255,255,255,.1)}
+.header-cta{display:flex;align-items:center;gap:10px}
+.hamburger{display:none;flex-direction:column;gap:5px;padding:8px;cursor:pointer}
+.hamburger span{display:block;width:22px;height:2px;background:#fff;border-radius:2px;transition:all .3s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{display:none;position:fixed;inset:0;top:72px;background:var(--navy);z-index:999;padding:24px;overflow-y:auto}
+.mobile-menu.open{display:block}
+.mobile-nav-link{display:block;font-family:var(--font-body);font-size:16px;font-weight:500;color:rgba(255,255,255,.85);padding:14px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+.mobile-nav-link:hover{color:#fff}
+.mobile-cta{margin-top:24px;display:flex;flex-direction:column;gap:12px}
+
+/* ─── HERO (industrial image + overlay) ─── */
+.hero{position:relative;padding:96px 0 110px;overflow:hidden;background:var(--navy)}
+.hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1920&q=80');background-size:cover;background-position:center;z-index:0}
+.hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(6,18,38,.96) 0%,rgba(11,29,58,.92) 45%,rgba(13,42,90,.88) 100%)}
+.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.025'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");z-index:1}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr 1fr;gap:60px;align-items:center}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:var(--font-body);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin-bottom:20px}
+.hero-eyebrow::before{content:'';width:28px;height:2px;background:var(--orange)}
+.hero h1{font-family:var(--font-head);font-size:clamp(34px,4.8vw,58px);font-weight:800;color:#fff;margin-bottom:22px;line-height:1.05;letter-spacing:-.025em}
+.hero h1 em{color:var(--blue-light);font-style:normal;background:linear-gradient(135deg,var(--blue-light) 0%,#7AB0FF 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero-desc{font-size:17px;color:rgba(255,255,255,.75);margin-bottom:38px;line-height:1.7;max-width:520px;font-weight:400}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+.hero-stats{display:flex;gap:32px;margin-top:52px;padding-top:32px;border-top:1px solid rgba(255,255,255,.12)}
+.hstat{text-align:left}
+.hstat-num{font-family:var(--font-head);font-size:34px;font-weight:800;color:#fff;letter-spacing:-.02em}
+.hstat-num em{font-style:normal;color:var(--orange);font-weight:700}
+.hstat-label{font-family:var(--font-body);font-size:12.5px;color:rgba(255,255,255,.55);margin-top:4px;font-weight:500;letter-spacing:.01em}
+
+/* Hero glassmorphism cards */
+.hero-visual{display:flex;flex-direction:column;gap:14px}
+.hero-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius-md);padding:20px 22px;backdrop-filter:blur(14px) saturate(160%);-webkit-backdrop-filter:blur(14px) saturate(160%);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 6px 24px rgba(0,0,0,.2);transition:all .25s}
+.hero-card:hover{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.2);transform:translateY(-2px)}
+.hero-card-label{font-family:var(--font-body);font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:6px}
+.hero-card-value{font-family:var(--font-head);font-size:21px;font-weight:700;color:#fff;letter-spacing:-.01em}
+
+/* HERO AWARD CARD — Prestige badge */
+.hero-award-card{background:linear-gradient(135deg,rgba(212,160,23,.18) 0%,rgba(146,64,14,.12) 100%);border:1px solid rgba(245,200,66,.4);border-radius:var(--radius-md);padding:22px 24px;position:relative;overflow:hidden;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:inset 0 1px 0 rgba(245,200,66,.2),0 8px 28px rgba(146,64,14,.2)}
+.hero-award-card::before{content:'';position:absolute;top:-50%;right:-30%;width:80%;height:200%;background:radial-gradient(ellipse,rgba(245,200,66,.18) 0%,transparent 65%);transform:rotate(25deg);pointer-events:none}
+.award-badge{display:flex;align-items:center;gap:14px;position:relative;z-index:1}
+.award-icon{width:52px;height:52px;background:linear-gradient(135deg,var(--gold-light) 0%,var(--gold) 50%,var(--bronze) 100%);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:26px;box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 4px 12px rgba(146,64,14,.4)}
+.award-info small{display:block;font-family:var(--font-body);font-size:10.5px;color:var(--gold-light);margin-bottom:4px;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
+.award-info strong{display:block;font-family:var(--font-head);font-weight:700;color:#fff;font-size:14.5px;line-height:1.3;letter-spacing:-.01em}
+.award-info span{font-family:var(--font-body);font-size:12px;color:rgba(245,200,66,.85);font-weight:500;margin-top:3px;display:block}
+
+/* ─── LOGO WALL ─── */
+.logo-wall{background:var(--gray-50);border-top:1px solid var(--gray-200);border-bottom:1px solid var(--gray-200);padding:36px 0;overflow:hidden}
+.logo-wall-label{text-align:center;font-family:var(--font-body);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gray-400);margin-bottom:24px}
+.marquee-wrap{overflow:hidden;position:relative}
+.marquee-wrap::before,.marquee-wrap::after{content:'';position:absolute;top:0;bottom:0;width:100px;z-index:2;pointer-events:none}
+.marquee-wrap::before{left:0;background:linear-gradient(to right,var(--gray-50),transparent)}
+.marquee-wrap::after{right:0;background:linear-gradient(to left,var(--gray-50),transparent)}
+.marquee-track{display:flex;gap:0;animation:marquee 35s linear infinite}
+.marquee-track:hover{animation-play-state:paused}
+.client-logo-item{display:flex;align-items:center;justify-content:center;padding:10px 36px;flex-shrink:0}
+.client-logo-item span{font-family:var(--font-head);font-size:15px;font-weight:800;color:var(--gray-400);letter-spacing:-.01em;white-space:nowrap;transition:color .2s}
+.client-logo-item:hover span{color:var(--navy)}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* ─── SVG ICON HELPERS ─── */
+.icon-sm{width:18px;height:18px;flex-shrink:0;stroke-width:2}
+.icon-md{width:22px;height:22px;flex-shrink:0;stroke-width:2}
+.icon-lg{width:26px;height:26px;flex-shrink:0;stroke-width:1.75}
+.icon-xs{width:14px;height:14px;flex-shrink:0;stroke-width:2}
+
+/* ─── SERVICES (image-backed, premium dark cards) ─── */
+.service-card{
+  position:relative;
+  isolation:isolate;
+  border-radius:var(--radius-md);
+  padding:32px;
+  min-height:340px;
+  cursor:pointer;
+  overflow:hidden;
+  background-color:var(--navy);
+  background-size:cover;
+  background-position:center;
+  color:#fff;
+  border:1px solid rgba(255,255,255,.06);
+  transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease,border-color .3s ease;
+  display:flex;
+  flex-direction:column;
+  box-shadow:0 4px 16px rgba(11,29,58,.12)
+}
+.service-card::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to bottom,rgba(11,29,58,.78) 0%,rgba(11,29,58,.92) 55%,rgba(6,18,38,.97) 100%);
+  z-index:0;
+  transition:background .35s ease
+}
+.service-card::after{
+  content:'';
+  position:absolute;
+  top:0;left:0;right:0;
+  height:3px;
+  background:var(--orange);
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:transform .4s cubic-bezier(.2,.8,.2,1);
+  z-index:2
+}
+.service-card > *{position:relative;z-index:1}
+.service-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 24px 56px rgba(11,29,58,.4);
+  border-color:rgba(255,255,255,.12)
+}
+.service-card:hover::before{
+  background:linear-gradient(to bottom,rgba(11,29,58,.72) 0%,rgba(11,29,58,.9) 55%,rgba(6,18,38,.96) 100%)
+}
+.service-card:hover::after{transform:scaleX(1)}
+
+/* Glassmorphic icon container */
+.service-icon{
+  width:56px;
+  height:56px;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:22px;
+  background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.18);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 4px 16px rgba(0,0,0,.18);
+  color:#fff;
+  transition:background .3s,border-color .3s,transform .3s
+}
+.service-icon svg{width:26px;height:26px;stroke-width:1.75}
+.service-card:hover .service-icon{
+  background:rgba(249,115,22,.18);
+  border-color:rgba(249,115,22,.4);
+  transform:scale(1.05)
+}
+
+/* Reset legacy icon-color modifier classes — all cards now unified */
+.si-blue,.si-orange,.si-green,.si-navy,.si-purple,.si-teal{background:rgba(255,255,255,.1);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 4px 16px rgba(0,0,0,.18)}
+
+.service-card h3{font-family:var(--font-head);font-size:19px;font-weight:700;color:#fff;margin-bottom:10px;letter-spacing:-.01em;line-height:1.3}
+.service-card p{font-family:var(--font-body);font-size:14.5px;color:rgba(255,255,255,.75);line-height:1.65;margin-bottom:18px;font-weight:400}
+
+.service-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:auto}
+.service-card .stag{
+  font-family:var(--font-body);
+  font-size:11px;
+  font-weight:600;
+  background:rgba(255,255,255,.1);
+  color:rgba(255,255,255,.92);
+  border:1px solid rgba(255,255,255,.18);
+  padding:4px 11px;
+  border-radius:100px;
+  letter-spacing:.02em;
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px)
+}
+
+/* Learn More — pill button style */
+.service-arrow{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:22px;
+  padding:10px 18px;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.22);
+  border-radius:100px;
+  font-family:var(--font-body);
+  font-size:13px;
+  font-weight:600;
+  color:#fff;
+  letter-spacing:.02em;
+  align-self:flex-start;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  transition:gap .25s ease,background .25s ease,border-color .25s ease,padding .25s ease,box-shadow .25s ease
+}
+.service-arrow svg{transition:transform .25s ease}
+.service-card:hover .service-arrow{
+  background:var(--orange);
+  border-color:var(--orange);
+  gap:11px;
+  padding-right:22px;
+  box-shadow:0 6px 18px rgba(249,115,22,.4)
+}
+.service-card:hover .service-arrow svg{transform:translateX(3px)}
+
+/* Neutralize legacy theme modifier classes to keep cards unified */
+.service-card.theme-safety::before,
+.service-card.theme-green::before,
+.service-card.theme-digital::before{background:linear-gradient(to bottom,rgba(11,29,58,.78) 0%,rgba(11,29,58,.92) 55%,rgba(6,18,38,.97) 100%)}
+.service-card.theme-safety,
+.service-card.theme-green,
+.service-card.theme-digital{background-color:var(--navy)}
+
+/* ─── INDUSTRIES ─── */
+.industry-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.industry-card{background:#fff;border:1.5px solid var(--gray-200);border-radius:var(--radius-md);padding:26px 18px;text-align:center;transition:all .25s;cursor:pointer;position:relative;overflow:hidden}
+.industry-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:0;background:var(--orange);transition:height .25s}
+.industry-card:hover{background:var(--navy);border-color:var(--navy);transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.industry-card:hover::after{height:3px}
+.industry-card:hover .ind-name,.industry-card:hover .ind-count{color:#fff}
+.ind-icon{font-size:36px;margin-bottom:12px;display:block}
+.ind-name{font-family:var(--font-head);font-weight:700;font-size:15px;color:var(--navy);margin-bottom:5px;transition:color .2s;letter-spacing:-.01em}
+.ind-count{font-family:var(--font-body);font-size:12px;color:var(--gray-400);transition:color .2s;font-weight:500}
+
+/* ─── STATS (industrial dark band) ─── */
+.stats-section{position:relative;padding:88px 0;overflow:hidden;background:var(--navy)}
+.stats-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=1920&q=80');background-size:cover;background-position:center;opacity:.18;z-index:0}
+.stats-section::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,var(--navy) 0%,rgba(11,29,58,.92) 100%);z-index:1}
+.stats-section .container{position:relative;z-index:2}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.08)}
+.stat-item{background:var(--navy);padding:44px 32px;text-align:center;position:relative;transition:background .25s}
+.stat-item:hover{background:var(--navy-light)}
+.stat-num{font-family:var(--font-head);font-size:clamp(38px,5vw,58px);font-weight:800;color:#fff;margin-bottom:8px;letter-spacing:-.03em;line-height:1}
+.stat-num span{color:var(--orange)}
+.stat-label{font-family:var(--font-body);font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.5;font-weight:500}
+
+/* ─── AWARD SECTION (Prestige Badge) ─── */
+.award-section{margin-top:64px;background:linear-gradient(135deg,rgba(146,64,14,.25) 0%,rgba(212,160,23,.15) 50%,rgba(245,200,66,.1) 100%);border:1.5px solid rgba(245,200,66,.4);border-radius:var(--radius-lg);padding:44px;display:flex;align-items:center;gap:36px;position:relative;overflow:hidden;box-shadow:0 18px 60px rgba(146,64,14,.25),inset 0 1px 0 rgba(245,200,66,.2)}
+.award-section::before{content:'';position:absolute;top:-60%;right:-20%;width:70%;height:200%;background:radial-gradient(ellipse,rgba(245,200,66,.18) 0%,transparent 60%);transform:rotate(25deg);pointer-events:none}
+.award-section::after{content:'';position:absolute;top:12px;left:12px;right:12px;bottom:12px;border:1px solid rgba(245,200,66,.25);border-radius:12px;pointer-events:none}
+.award-medal{width:96px;height:96px;background:linear-gradient(135deg,var(--gold-light) 0%,var(--gold) 40%,var(--bronze) 90%);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:44px;flex-shrink:0;position:relative;z-index:1;box-shadow:inset 0 2px 0 rgba(255,255,255,.4),inset 0 -2px 0 rgba(0,0,0,.2),0 8px 24px rgba(146,64,14,.45),0 0 0 4px rgba(245,200,66,.15)}
+.award-medal::before{content:'';position:absolute;inset:-8px;border-radius:50%;border:2px dashed rgba(245,200,66,.4);animation:rotate-medal 24s linear infinite}
+@keyframes rotate-medal{to{transform:rotate(360deg)}}
+.award-content{position:relative;z-index:1;flex:1}
+.award-content h3{font-family:var(--font-head);font-size:23px;font-weight:700;color:#fff;margin-bottom:8px;letter-spacing:-.01em}
+.award-content p{font-family:var(--font-body);color:rgba(255,255,255,.75);font-size:15px;line-height:1.7;font-weight:400}
+.award-content .award-yr{display:inline-block;background:linear-gradient(135deg,var(--gold-light),var(--gold));color:#3d2906;font-family:var(--font-body);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px;border-radius:100px;margin-bottom:12px;box-shadow:0 2px 8px rgba(212,160,23,.4)}
+
+/* ─── ACCREDITATIONS BAR ─── */
+.accred-bar{background:var(--gray-50);border-top:1px solid var(--gray-200);border-bottom:1px solid var(--gray-200);padding:30px 0}
+.accred-inner{display:flex;align-items:center;gap:40px;flex-wrap:wrap;justify-content:center}
+.accred-item{display:flex;align-items:center;gap:10px}
+.accred-dot{width:8px;height:8px;background:var(--green);border-radius:50%;box-shadow:0 0 0 3px rgba(22,163,74,.18)}
+.accred-item span{font-family:var(--font-body);font-size:13px;font-weight:600;color:var(--gray-700)}
+
+/* ─── TESTIMONIALS ─── */
+.testi-card{border-radius:var(--radius-md);padding:32px;border:1.5px solid var(--gray-200);position:relative;background:#fff;transition:all .25s}
+.testi-card:hover{border-color:rgba(27,94,234,.25);box-shadow:var(--shadow-md);transform:translateY(-3px)}
+.testi-card::before{content:'\201C';font-family:Georgia,serif;font-size:84px;color:var(--blue);position:absolute;top:-12px;left:24px;line-height:1;opacity:.18;font-weight:700}
+.testi-text{font-family:var(--font-body);font-size:15.5px;color:var(--gray-700);line-height:1.75;margin-bottom:22px;padding-top:20px;font-weight:400}
+.testi-author{display:flex;align-items:center;gap:12px}
+.testi-avatar{width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--navy),var(--navy-light));display:flex;align-items:center;justify-content:center;font-family:var(--font-head);font-weight:700;font-size:15px;color:#fff;flex-shrink:0;box-shadow:0 2px 6px rgba(11,29,58,.25)}
+.testi-name{font-family:var(--font-body);font-weight:600;font-size:14px;color:var(--navy)}
+.testi-role{font-family:var(--font-body);font-size:12px;color:var(--gray-400);font-weight:500}
+
+/* ─── ABOUT PAGE ─── */
+.about-hero{position:relative;padding:90px 0;overflow:hidden;background:var(--navy)}
+.about-hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1920&q=80');background-size:cover;background-position:center;opacity:.25;z-index:0}
+.about-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(11,29,58,.95) 0%,rgba(11,29,58,.85) 100%);z-index:1}
+.about-hero .container{position:relative;z-index:2}
+.about-hero h1{font-family:var(--font-head);font-size:clamp(36px,5vw,58px);font-weight:800;color:#fff;margin-bottom:18px;letter-spacing:-.025em}
+.about-hero p{font-family:var(--font-body);font-size:18px;color:rgba(255,255,255,.7);max-width:620px;line-height:1.7;font-weight:400}
+.timeline{position:relative;padding-left:42px}
+.timeline::before{content:'';position:absolute;left:12px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--blue) 0%,var(--gray-200) 100%)}
+.timeline-item{position:relative;margin-bottom:36px}
+.timeline-item::before{content:'';position:absolute;left:-36px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--blue);border:3px solid #fff;box-shadow:0 0 0 2px var(--blue),0 0 0 6px rgba(27,94,234,.12)}
+.timeline-item.timeline-award::before{background:var(--gold);box-shadow:0 0 0 2px var(--gold),0 0 0 6px rgba(212,160,23,.18)}
+.timeline-year{font-family:var(--font-body);font-size:11.5px;font-weight:800;color:var(--blue);text-transform:uppercase;letter-spacing:.12em;margin-bottom:5px}
+.timeline-item.timeline-award .timeline-year{color:var(--gold-deep)}
+.timeline-title{font-family:var(--font-head);font-weight:700;font-size:17px;color:var(--navy);margin-bottom:5px;letter-spacing:-.01em}
+.timeline-desc{font-family:var(--font-body);font-size:14px;color:var(--gray-600);font-weight:400;line-height:1.6}
+.value-card{background:#fff;border-radius:var(--radius-md);padding:28px;border:1.5px solid var(--gray-200);border-left:4px solid var(--blue);transition:all .25s}
+.value-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.value-card.vc-orange{border-left-color:var(--orange)}
+.value-card.vc-green{border-left-color:var(--forest);background:linear-gradient(135deg,rgba(22,101,52,.025),transparent)}
+.value-card.vc-earth{border-left-color:var(--earth-light)}
+.value-card h3{font-family:var(--font-head);font-weight:700;font-size:17px;color:var(--navy);margin-bottom:10px;letter-spacing:-.01em}
+.value-card p{font-family:var(--font-body);font-size:14px;color:var(--gray-600);line-height:1.7;font-weight:400}
+
+/* ─── SERVICES PAGE ─── */
+.services-hero{position:relative;padding:78px 0;background:var(--navy);overflow:hidden}
+.services-hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=1920&q=80');background-size:cover;background-position:center;opacity:.22;z-index:0}
+.services-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(13,42,90,.95),rgba(11,29,58,.92));z-index:1}
+.services-hero .container{position:relative;z-index:2}
+.services-hero h1{font-family:var(--font-head);font-weight:800;font-size:clamp(32px,4.5vw,52px);color:#fff;margin-bottom:18px;letter-spacing:-.025em;line-height:1.1}
+.services-hero p{font-family:var(--font-body);font-size:17px;color:rgba(255,255,255,.7);max-width:580px;line-height:1.7;font-weight:400}
+
+.service-detail-card{background:#fff;border:1.5px solid var(--gray-200);border-radius:var(--radius-md);overflow:hidden;margin-bottom:28px;transition:all .25s}
+.service-detail-card:hover{box-shadow:var(--shadow-md);border-color:var(--gray-300)}
+.sdc-header{background:var(--navy);padding:24px 28px;display:flex;align-items:center;gap:16px;border-bottom:3px solid var(--blue)}
+.sdc-header h3{font-family:var(--font-head);font-weight:700;font-size:20px;color:#fff;letter-spacing:-.01em}
+.sdc-header span{font-size:28px}
+.sdc-body{padding:28px}
+.sdc-body p{font-family:var(--font-body);font-size:15px;color:var(--gray-600);margin-bottom:22px;line-height:1.75;font-weight:400}
+.service-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.service-list li{display:flex;align-items:flex-start;gap:10px;font-family:var(--font-body);font-size:14px;color:var(--gray-700);padding:6px 0;font-weight:500}
+.service-list li::before{content:'✓';color:var(--blue);font-weight:800;flex-shrink:0;margin-top:1px}
+
+/* SDC Safety theme (brutalist) */
+.service-detail-card.sdc-safety{border:2px solid var(--navy);box-shadow:var(--shadow-brutal-orange)}
+.service-detail-card.sdc-safety .sdc-header{background:var(--navy);border-bottom-color:var(--orange)}
+.service-detail-card.sdc-safety .service-list li::before{color:var(--orange)}
+
+/* SDC Sustainability theme */
+.service-detail-card.sdc-green{border-color:rgba(22,101,52,.25);background:linear-gradient(180deg,#fff 0%,rgba(22,101,52,.025) 100%)}
+.service-detail-card.sdc-green .sdc-header{background:linear-gradient(135deg,var(--forest-dark) 0%,var(--forest) 100%);border-bottom-color:var(--forest-light);position:relative;overflow:hidden}
+.service-detail-card.sdc-green .sdc-header::before{content:'';position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=80');background-size:cover;background-position:center;opacity:.2;z-index:0}
+.service-detail-card.sdc-green .sdc-header > *{position:relative;z-index:1}
+.service-detail-card.sdc-green .service-list li::before{color:var(--forest)}
+
+/* SDC Digital theme (dark mode + neon) */
+.service-detail-card.sdc-digital{background:linear-gradient(135deg,var(--digital-bg) 0%,var(--digital-bg-2) 100%);border-color:rgba(0,229,255,.25);color:#fff;position:relative;overflow:hidden}
+.service-detail-card.sdc-digital::before{content:'';position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80');background-size:cover;background-position:center;opacity:.08;z-index:0}
+.service-detail-card.sdc-digital > *{position:relative;z-index:1}
+.service-detail-card.sdc-digital .sdc-header{background:linear-gradient(90deg,rgba(0,229,255,.08) 0%,transparent 100%);border-bottom:1px solid rgba(0,229,255,.25)}
+.service-detail-card.sdc-digital .sdc-header h3{color:#fff;text-shadow:0 0 24px rgba(0,229,255,.3)}
+.service-detail-card.sdc-digital .sdc-body p{color:rgba(255,255,255,.7)}
+.service-detail-card.sdc-digital .service-list li{color:rgba(255,255,255,.85)}
+.service-detail-card.sdc-digital .service-list li::before{color:var(--digital-accent);text-shadow:0 0 8px var(--digital-glow)}
+
+/* ─── DIGITAL SECTION BAND (homepage IoT/Tech callout) ─── */
+.digital-band{position:relative;background:linear-gradient(135deg,var(--digital-bg) 0%,var(--digital-bg-2) 60%,#0F1F4A 100%);padding:80px 0;overflow:hidden;border-top:1px solid rgba(0,229,255,.15);border-bottom:1px solid rgba(0,229,255,.15)}
+.digital-band::before{content:'';position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1920&q=80');background-size:cover;background-position:center;opacity:.12;z-index:0}
+.digital-band::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 80% 50%,rgba(0,229,255,.12) 0%,transparent 50%);z-index:1}
+.digital-band .container{position:relative;z-index:2}
+.digital-band .tag{background:rgba(0,229,255,.1);color:var(--digital-accent);border-color:rgba(0,229,255,.3)}
+.digital-band h2{font-family:var(--font-head);color:#fff;font-size:clamp(28px,4vw,40px);font-weight:800;margin-bottom:14px;letter-spacing:-.025em}
+.digital-band h2 em{font-style:normal;background:linear-gradient(135deg,var(--digital-accent) 0%,#6366F1 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.digital-band p{font-family:var(--font-body);color:rgba(255,255,255,.7);font-size:17px;line-height:1.7;max-width:580px;font-weight:400}
+
+/* ─── TRAINING PAGE ─── */
+.training-card{background:#fff;border:1.5px solid var(--gray-200);border-radius:var(--radius-md);padding:28px;transition:all .25s;position:relative;overflow:hidden}
+.training-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--blue);transform:scaleX(0);transition:transform .25s;transform-origin:left}
+.training-card:hover{box-shadow:var(--shadow-md);border-color:rgba(27,94,234,.3);transform:translateY(-3px)}
+.training-card:hover::before{transform:scaleX(1)}
+.training-badge{display:inline-block;font-family:var(--font-body);font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:4px 11px;border-radius:100px;margin-bottom:14px}
+.tb-online{background:rgba(22,163,74,.1);color:var(--green);border:1px solid rgba(22,163,74,.2)}
+.tb-classroom{background:rgba(27,94,234,.1);color:var(--blue);border:1px solid rgba(27,94,234,.2)}
+.tb-onsite{background:rgba(249,115,22,.1);color:var(--orange-dark);border:1px solid rgba(249,115,22,.2)}
+.training-card h3{font-family:var(--font-head);font-weight:700;font-size:17px;color:var(--navy);margin-bottom:10px;letter-spacing:-.01em}
+.training-card p{font-family:var(--font-body);font-size:14px;color:var(--gray-600);margin-bottom:18px;line-height:1.65;font-weight:400}
+.training-meta{display:flex;gap:16px;flex-wrap:wrap}
+.tmeta{display:flex;align-items:center;gap:5px;font-family:var(--font-body);font-size:12px;color:var(--gray-500,#64748b);font-weight:500}
+
+/* ─── CONTACT PAGE ─── */
+.contact-hero{position:relative;padding:78px 0;background:var(--navy);overflow:hidden}
+.contact-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--navy) 0%,#0D2A5A 100%);z-index:0}
+.contact-hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 75% 30%,rgba(27,94,234,.2) 0%,transparent 55%);z-index:1}
+.contact-hero .container{position:relative;z-index:2}
+.contact-form-wrap{background:#fff;border-radius:var(--radius-lg);padding:40px;box-shadow:var(--shadow-lg);border:1px solid var(--gray-200)}
+.form-group{margin-bottom:20px}
+.form-group label{display:block;font-family:var(--font-body);font-size:13.5px;font-weight:600;color:var(--gray-800);margin-bottom:7px;letter-spacing:.01em}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:12px 16px;border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:15px;color:var(--gray-900);background:#fff;transition:border-color .2s,box-shadow .2s;outline:none}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(27,94,234,.12)}
+.form-group textarea{resize:vertical;min-height:120px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.office-card{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:22px;transition:all .25s}
+.office-card:hover{border-color:var(--blue);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
+.office-card h4{font-family:var(--font-head);font-weight:700;font-size:14.5px;color:var(--navy);margin-bottom:10px;display:flex;align-items:center;gap:8px;letter-spacing:-.01em}
+.office-card h4::before{content:'📍';font-size:15px}
+.office-card p{font-family:var(--font-body);font-size:13px;color:var(--gray-600);line-height:1.7;font-weight:400}
+.office-hq h4::before{content:'🏢'}
+.contact-info-item{display:flex;align-items:flex-start;gap:14px;margin-bottom:20px}
+.ci-icon{width:42px;height:42px;background:rgba(27,94,234,.08);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px;border:1px solid rgba(27,94,234,.12)}
+.ci-text small{display:block;font-family:var(--font-body);font-size:11px;color:var(--gray-400);text-transform:uppercase;letter-spacing:.1em;margin-bottom:3px;font-weight:600}
+.ci-text a,.ci-text span{font-family:var(--font-body);font-size:15px;color:var(--navy);font-weight:600}
+.ci-text a:hover{color:var(--blue)}
+
+/* ─── CLIENTS PAGE ─── */
+.clients-hero{position:relative;padding:78px 0;background:var(--navy);overflow:hidden}
+.clients-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--navy) 0%,#0D2A5A 100%);z-index:0}
+.clients-hero .container{position:relative;z-index:1}
+.clients-hero h1{font-family:var(--font-head);font-weight:800;font-size:clamp(32px,4.5vw,52px);color:#fff;margin-bottom:18px;letter-spacing:-.025em;line-height:1.1}
+.clients-hero p{font-family:var(--font-body);font-size:17px;color:rgba(255,255,255,.7);max-width:600px;line-height:1.7;font-weight:400}
+.client-sector{margin-bottom:48px}
+.sector-title{font-family:var(--font-head);font-weight:700;font-size:22px;color:var(--navy);padding-bottom:16px;border-bottom:2px solid var(--gray-200);margin-bottom:24px;display:flex;align-items:center;gap:10px;letter-spacing:-.01em}
+.client-name-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.client-name-item{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-sm);padding:14px 18px;font-family:var(--font-body);font-size:14px;font-weight:600;color:var(--gray-800);transition:all .2s}
+.client-name-item:hover{background:var(--navy);color:#fff;border-color:var(--navy);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+
+/* ─── FOOTER ─── */
+.footer{background:var(--gray-900);padding:68px 0 0;position:relative;overflow:hidden}
+.footer::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--blue),var(--orange),transparent)}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
+.footer-brand p{font-family:var(--font-body);font-size:14px;color:rgba(255,255,255,.5);line-height:1.75;margin-top:18px;max-width:280px;font-weight:400}
+.footer-col h4{font-family:var(--font-head);font-weight:700;font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:18px}
+.footer-col ul{display:flex;flex-direction:column;gap:10px}
+.footer-col ul li a{font-family:var(--font-body);font-size:14px;color:rgba(255,255,255,.6);transition:color .2s;font-weight:400}
+.footer-col ul li a:hover{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding:22px 0;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.footer-bottom p{font-family:var(--font-body);font-size:12.5px;color:rgba(255,255,255,.35);font-weight:400}
+.accred-badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.abadge{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:6px;padding:5px 11px;font-family:var(--font-body);font-size:10.5px;font-weight:700;color:rgba(255,255,255,.55);letter-spacing:.06em}
+.abadge:last-child{background:linear-gradient(135deg,rgba(212,160,23,.2),rgba(146,64,14,.15));border-color:rgba(245,200,66,.35);color:var(--gold-light)}
+
+/* ─── MOBILE BOTTOM BAR ─── */
+.mobile-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:900;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--gray-200);box-shadow:0 -4px 20px rgba(0,0,0,.1)}
+.mobile-bar-inner{display:grid;grid-template-columns:repeat(3,1fr)}
+.mbar-btn{display:flex;flex-direction:column;align-items:center;gap:3px;padding:10px 8px;font-family:var(--font-body);font-size:11px;font-weight:700;transition:background .2s;cursor:pointer;letter-spacing:.02em}
+.mbar-btn:hover{background:var(--gray-50)}
+.mbar-btn.call{color:var(--blue)}
+.mbar-btn.whatsapp{color:var(--green)}
+.mbar-btn.quote{color:var(--orange-dark)}
+.mbar-btn .mbar-icon{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;line-height:1}
+.mbar-btn .mbar-icon svg{width:22px;height:22px;stroke-width:2}
+.mobile-nav-icon{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;margin-right:14px;color:rgba(255,255,255,.85);vertical-align:middle}
+.mobile-nav-icon svg{width:22px;height:22px;stroke-width:2}
+.mobile-nav-link{display:flex !important;align-items:center}
+
+/* ─── PAGE SYSTEM ─── */
+.page{display:none}
+.page.active{display:block}
+
+/* ─── WHATSAPP FLOAT ─── */
+.wa-float{position:fixed;bottom:80px;right:20px;z-index:800;width:54px;height:54px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 4px 16px rgba(37,211,102,.45),inset 0 1px 0 rgba(255,255,255,.2);transition:transform .2s;cursor:pointer}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float-desk{bottom:28px}
+
+/* ─── FINAL CTA ─── */
+.final-cta{background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 100%);padding:84px 0;text-align:center;position:relative;overflow:hidden}
+.final-cta::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 30% 50%,rgba(249,115,22,.15) 0%,transparent 50%);z-index:0}
+.final-cta .container{position:relative;z-index:1}
+.final-cta h2{font-family:var(--font-head);font-size:clamp(28px,4vw,42px);font-weight:800;color:#fff;margin-bottom:18px;letter-spacing:-.025em}
+.final-cta p{font-family:var(--font-body);font-size:17px;color:rgba(255,255,255,.8);margin-bottom:36px;max-width:580px;margin-left:auto;margin-right:auto;line-height:1.7;font-weight:400}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:1024px){
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .industry-grid{grid-template-columns:repeat(4,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .hero-grid{gap:40px}
+}
+@media(max-width:768px){
+  .section{padding:60px 0}
+  .nav,.header-cta .btn{display:none}
+  .hamburger{display:flex}
+  .hero{padding:64px 0 76px}
+  .hero-grid{grid-template-columns:1fr;gap:40px}
+  .hero-visual{display:none}
+  .hero-stats{gap:18px;flex-wrap:wrap}
+  .hstat-num{font-size:26px}
+  .grid-2,.grid-3,.grid-4{grid-template-columns:1fr}
+  .industry-grid{grid-template-columns:repeat(2,1fr)}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr;gap:32px}
+  .mobile-bar{display:block}
+  .wa-float{bottom:88px}
+  .wa-float-desk{bottom:88px}
+  body{padding-bottom:62px}
+  .award-section{flex-direction:column;text-align:center;padding:32px 24px}
+  .form-row{grid-template-columns:1fr}
+  .service-list{grid-template-columns:1fr}
+  .client-name-grid{grid-template-columns:1fr 1fr}
+  .accred-inner{gap:18px}
+  .footer-bottom{flex-direction:column;text-align:center}
+  .hero-actions .btn{flex:1;justify-content:center;min-width:140px}
+  .award-medal{width:80px;height:80px;font-size:36px}
+  .award-content h3{font-size:19px}
+}
+@media(max-width:480px){
+  .industry-grid{grid-template-columns:repeat(2,1fr)}
+  .client-name-grid{grid-template-columns:1fr}
+  .hero h1{font-size:30px}
+  .btn{padding:12px 20px;font-size:14px}
+  .section-title{font-size:26px}
+}
+</style>
+</head>
+<body>
+
+<!-- AWARD STRIP (PRESTIGE GOLD/BRONZE) -->
+<div class="award-strip" id="awardStrip">
+  <span>🏆</span>
+  <strong>2022 National Award for Outstanding Entrepreneurship</strong>
+  <span>— Presented by Hon. PM Narendra Modi</span>
+  <button onclick="document.getElementById('awardStrip').style.display='none'" style="background:none;border:none;color:#fff;font-size:18px;margin-left:12px;cursor:pointer;line-height:1;opacity:.7">×</button>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <a class="logo" href="#" onclick="showPage('home')">
+        <div class="logo-mark"><span>QMS</span></div>
+        <div class="logo-text">QMS India Limited<small>Quality · Safety · Sustainability</small></div>
+      </a>
+      <nav class="nav">
+        <a class="nav-link active" href="#" onclick="showPage('home');setActive(this)">Home</a>
+        <a class="nav-link" href="#" onclick="showPage('about');setActive(this)">About</a>
+        <a class="nav-link" href="#" onclick="showPage('services');setActive(this)">Services</a>
+        <a class="nav-link" href="#" onclick="showPage('clients');setActive(this)">Clients</a>
+        <a class="nav-link" href="#" onclick="showPage('training');setActive(this)">Training</a>
+        <a class="nav-link" href="#" onclick="showPage('contact');setActive(this)">Contact</a>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:+919982377770" class="btn btn-secondary" style="padding:9px 18px;font-size:13px;color:#fff;border-color:rgba(255,255,255,.3)">📞 +91 99823 77770</a>
+        <a href="#" class="btn btn-orange" style="padding:9px 18px;font-size:13px" onclick="showPage('contact')">Get a Quote</a>
+      </div>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a class="mobile-nav-link" href="#" onclick="showPage('home');closeMenu()">
+    <span class="mobile-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+    Home
+  </a>
+  <a class="mobile-nav-link" href="#" onclick="showPage('about');closeMenu()">
+    <span class="mobile-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M12 6h.01"/><path d="M8 10h.01"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 14h.01"/><path d="M16 14h.01"/><path d="M12 14h.01"/></svg></span>
+    About Us
+  </a>
+  <a class="mobile-nav-link" href="#" onclick="showPage('services');closeMenu()">
+    <span class="mobile-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+    Services
+  </a>
+  <a class="mobile-nav-link" href="#" onclick="showPage('clients');closeMenu()">
+    <span class="mobile-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+    Our Clients
+  </a>
+  <a class="mobile-nav-link" href="#" onclick="showPage('training');closeMenu()">
+    <span class="mobile-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6"/><path d="M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+    Training
+  </a>
+  <a class="mobile-nav-link" href="#" onclick="showPage('contact');closeMenu()">
+    <span class="mobile-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+    Contact
+  </a>
+  <div class="mobile-cta">
+    <a href="tel:+919982377770" class="btn btn-primary" style="justify-content:center;gap:10px"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call Now: +91 99823 77770</a>
+    <a href="https://wa.me/919982377770" class="btn btn-orange" style="justify-content:center;gap:10px"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg> WhatsApp Us</a>
+    <a href="#" class="btn btn-secondary" style="justify-content:center;color:var(--navy)" onclick="showPage('contact');closeMenu()">Get a Quote</a>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- PAGE: HOME                                  -->
+<!-- ═══════════════════════════════════════════ -->
+<div id="page-home" class="page active">
+
+  <!-- HERO (industrial plant background + dark overlay) -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-eyebrow">Trusted Since 1998</div>
+          <h1>India's Partner for <em>Quality, Safety</em> & Sustainability</h1>
+          <p class="hero-desc">ISO certification, safety audits, NDT inspection, and sustainability consulting — delivered by certified experts across India. 2,500+ projects. 28 years of excellence.</p>
+          <div class="hero-actions">
+            <a href="#" class="btn btn-orange" onclick="showPage('contact')">Request a Consultation</a>
+            <a href="#" class="btn btn-white" onclick="showPage('services')">Explore Services →</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hstat"><div class="hstat-num"><span id="counter-years">28</span><em>+</em></div><div class="hstat-label">Years of Experience</div></div>
+            <div class="hstat"><div class="hstat-num"><span id="counter-projects">2500</span><em>+</em></div><div class="hstat-label">Projects Delivered</div></div>
+            <div class="hstat"><div class="hstat-num"><span id="counter-experts">500</span><em>+</em></div><div class="hstat-label">Certified Experts</div></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-award-card">
+            <div class="award-badge">
+              <div class="award-icon">🏆</div>
+              <div class="award-info">
+                <small>National Recognition</small>
+                <strong>Outstanding Entrepreneurship Award 2022</strong>
+                <span>Presented by Prime Minister Narendra Modi</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-label">Services Offered</div>
+            <div class="hero-card-value">30+ Services Across 6 Domains</div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+            <div class="hero-card">
+              <div class="hero-card-label">Industries</div>
+              <div class="hero-card-value" style="font-size:18px">12+ Sectors</div>
+            </div>
+            <div class="hero-card">
+              <div class="hero-card-label">Offices</div>
+              <div class="hero-card-value" style="font-size:18px">7 Locations</div>
+            </div>
+          </div>
+          <div class="hero-card" style="display:flex;align-items:center;gap:12px">
+            <div style="font-size:28px">✅</div>
+            <div>
+              <div class="hero-card-label" style="margin:0 0 2px">Accreditations</div>
+              <div style="font-family:var(--font-body);font-size:13px;color:rgba(255,255,255,.75);font-weight:500">CIFB · NABCB · NSIC · QCI · NPC</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENT LOGO WALL -->
+  <div class="logo-wall">
+    <div class="logo-wall-label">Trusted by India's leading companies</div>
+    <div class="marquee-wrap">
+      <div class="marquee-track" id="marqueeTrack">
+        <div class="client-logo-item"><span>MAHINDRA</span></div>
+        <div class="client-logo-item"><span>EICHER MOTORS</span></div>
+        <div class="client-logo-item"><span>HINDUSTAN ZINC</span></div>
+        <div class="client-logo-item"><span>JAIPUR AIRPORT</span></div>
+        <div class="client-logo-item"><span>AMBUJA CEMENT</span></div>
+        <div class="client-logo-item"><span>GODREJ</span></div>
+        <div class="client-logo-item"><span>JK LAKSHMI CEMENT</span></div>
+        <div class="client-logo-item"><span>DAIKIN</span></div>
+        <div class="client-logo-item"><span>ASHOK LEYLAND</span></div>
+        <div class="client-logo-item"><span>INDIAN RAILWAYS</span></div>
+        <div class="client-logo-item"><span>BHEL</span></div>
+        <div class="client-logo-item"><span>NTPC</span></div>
+        <div class="client-logo-item"><span>HERO MOTOCORP</span></div>
+        <div class="client-logo-item"><span>ULTRATECH CEMENT</span></div>
+        <div class="client-logo-item"><span>MAHINDRA</span></div>
+        <div class="client-logo-item"><span>EICHER MOTORS</span></div>
+        <div class="client-logo-item"><span>HINDUSTAN ZINC</span></div>
+        <div class="client-logo-item"><span>JAIPUR AIRPORT</span></div>
+        <div class="client-logo-item"><span>AMBUJA CEMENT</span></div>
+        <div class="client-logo-item"><span>GODREJ</span></div>
+        <div class="client-logo-item"><span>JK LAKSHMI CEMENT</span></div>
+        <div class="client-logo-item"><span>DAIKIN</span></div>
+        <div class="client-logo-item"><span>ASHOK LEYLAND</span></div>
+        <div class="client-logo-item"><span>INDIAN RAILWAYS</span></div>
+        <div class="client-logo-item"><span>BHEL</span></div>
+        <div class="client-logo-item"><span>NTPC</span></div>
+        <div class="client-logo-item"><span>HERO MOTOCORP</span></div>
+        <div class="client-logo-item"><span>ULTRATECH CEMENT</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES GRID -->
+  <section class="section">
+    <div class="container">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:48px;flex-wrap:wrap">
+        <div>
+          <div class="tag">What We Do</div>
+          <h2 class="section-title">Six Domains of Expertise</h2>
+          <p class="section-sub">From ISO certification to fire safety audits — comprehensive quality and safety solutions under one roof.</p>
+        </div>
+        <a href="#" class="btn btn-secondary" onclick="showPage('services')">View All Services →</a>
+      </div>
+      <div class="grid-3" id="serviceGrid">
+        <div class="card service-card" onclick="showPage('services')" style="background-image:url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=600')">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <h3>ISO & Management Standards</h3>
+          <p>Consulting, gap analysis, and certification support for ISO 9001, ISO 14001, ISO 45001, IATF 16949, and more.</p>
+          <div class="service-tags">
+            <span class="stag">ISO 9001</span><span class="stag">ISO 14001</span><span class="stag">IATF 16949</span><span class="stag">ISO 45001</span>
+          </div>
+          <div class="service-arrow">Learn more <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+        </div>
+        <div class="card service-card" onclick="showPage('services')" style="background-image:url('https://images.unsplash.com/photo-1582131503261-f28d81553728?auto=format&fit=crop&q=80&w=600')">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          </div>
+          <h3>Safety & Fire Services</h3>
+          <p>Comprehensive fire safety audits, risk assessments, EIA reports, and compliance consulting under PNGRB and OISD standards.</p>
+          <div class="service-tags">
+            <span class="stag">Fire Safety Audit</span><span class="stag">Risk Assessment</span><span class="stag">EIA</span>
+          </div>
+          <div class="service-arrow">Learn more <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+        </div>
+        <div class="card service-card" onclick="showPage('services')" style="background-image:url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600')">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/><line x1="11" y1="8" x2="11" y2="14"/></svg>
+          </div>
+          <h3>NDT & Inspection</h3>
+          <p>Non-destructive testing including UT, RT, MT, PT, VT, and advanced techniques like PAUT, TOFD, and drone inspection.</p>
+          <div class="service-tags">
+            <span class="stag">Ultrasonic</span><span class="stag">Radiography</span><span class="stag">PAUT</span><span class="stag">TOFD</span>
+          </div>
+          <div class="service-arrow">Learn more <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+        </div>
+        <div class="card service-card" onclick="showPage('services')" style="background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600')">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
+          </div>
+          <h3>Audits, Surveys & Assessments</h3>
+          <p>Third-party audits, supplier audits, energy audits, GIS mapping, and sustainability assessments for all industries.</p>
+          <div class="service-tags">
+            <span class="stag">Third-Party Audit</span><span class="stag">Energy Audit</span><span class="stag">GIS</span>
+          </div>
+          <div class="service-arrow">Learn more <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+        </div>
+        <div class="card service-card" onclick="showPage('training')" style="background-image:url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=600')">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <h3>Training & Development</h3>
+          <p>IRCA-registered lead auditor courses, competency-building workshops, and customized on-site training programs.</p>
+          <div class="service-tags">
+            <span class="stag">Lead Auditor</span><span class="stag">Internal Auditor</span><span class="stag">OHSAS</span>
+          </div>
+          <div class="service-arrow">View courses <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+        </div>
+        <div class="card service-card" onclick="showPage('services')" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=600')">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><polyline points="7 9 10 12 7 15"/><line x1="13" y1="15" x2="17" y2="15"/></svg>
+          </div>
+          <h3>Software Solutions</h3>
+          <p>QMS and EHS software, compliance management platforms, and digital tools to streamline your quality processes.</p>
+          <div class="service-tags">
+            <span class="stag">QMS Software</span><span class="stag">EHS Platform</span><span class="stag">Compliance</span>
+          </div>
+          <div class="service-arrow">Learn more <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIGITAL / IoT BAND (dark mode + neon) -->
+  <section class="digital-band">
+    <div class="container">
+      <div class="grid-2" style="align-items:center;gap:48px">
+        <div>
+          <div class="tag">Digital Transformation</div>
+          <h2>Quality, <em>Digitized.</em></h2>
+          <p>From compliance dashboards to IoT-enabled inspection workflows — we build the digital backbone that makes quality, safety, and EHS data work for you, not against you.</p>
+          <div style="margin-top:28px;display:flex;gap:14px;flex-wrap:wrap">
+            <a href="#" class="btn btn-orange" onclick="showPage('services')">Explore Software →</a>
+            <a href="#" class="btn" style="background:rgba(0,229,255,.1);color:var(--digital-accent);border:1.5px solid rgba(0,229,255,.35)" onclick="showPage('contact')">Request Demo</a>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+          <div style="background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:10px;padding:20px;backdrop-filter:blur(8px)">
+            <div style="font-size:26px;margin-bottom:10px">📊</div>
+            <div style="font-family:var(--font-head);font-weight:700;color:#fff;font-size:15px;margin-bottom:4px">Live Dashboards</div>
+            <div style="font-family:var(--font-body);font-size:12.5px;color:rgba(255,255,255,.55)">Real-time KPI tracking across plants</div>
+          </div>
+          <div style="background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:10px;padding:20px;backdrop-filter:blur(8px)">
+            <div style="font-size:26px;margin-bottom:10px">🔗</div>
+            <div style="font-family:var(--font-head);font-weight:700;color:#fff;font-size:15px;margin-bottom:4px">ERP Integration</div>
+            <div style="font-family:var(--font-body);font-size:12.5px;color:rgba(255,255,255,.55)">SAP, Oracle, Microsoft Dynamics</div>
+          </div>
+          <div style="background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:10px;padding:20px;backdrop-filter:blur(8px)">
+            <div style="font-size:26px;margin-bottom:10px">🤖</div>
+            <div style="font-family:var(--font-head);font-weight:700;color:#fff;font-size:15px;margin-bottom:4px">AI Reporting</div>
+            <div style="font-family:var(--font-body);font-size:12.5px;color:rgba(255,255,255,.55)">Auto-generated audit reports</div>
+          </div>
+          <div style="background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:10px;padding:20px;backdrop-filter:blur(8px)">
+            <div style="font-size:26px;margin-bottom:10px">📱</div>
+            <div style="font-family:var(--font-head);font-weight:700;color:#fff;font-size:15px;margin-bottom:4px">Mobile-First</div>
+            <div style="font-family:var(--font-body);font-size:12.5px;color:rgba(255,255,255,.55)">Inspection on the shop floor</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS (industrial dark band with bg image) -->
+  <section class="stats-section">
+    <div class="stats-bg"></div>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item"><div class="stat-num"><span>28</span>+</div><div class="stat-label">Years of experience<br>Founded 1998</div></div>
+        <div class="stat-item"><div class="stat-num"><span>2,500</span>+</div><div class="stat-label">Projects delivered<br>across India</div></div>
+        <div class="stat-item"><div class="stat-num"><span>500</span>+</div><div class="stat-label">Certified professionals<br>on our team</div></div>
+        <div class="stat-item"><div class="stat-num"><span>12</span>+</div><div class="stat-label">Industry sectors<br>served</div></div>
+      </div>
+      <!-- PRESTIGE AWARD SECTION -->
+      <div class="award-section">
+        <div class="award-medal">🏆</div>
+        <div class="award-content">
+          <div class="award-yr">★ 2022 National Award ★</div>
+          <h3>Outstanding Entrepreneurship — Presented by PM Narendra Modi</h3>
+          <p>QMS India Limited received the prestigious National Award for Outstanding Entrepreneurship at the National MSME Awards 2022, presented by the Hon. Prime Minister of India — recognizing our commitment to excellence in quality management and safety services across the nation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES -->
+  <section class="section" style="background:var(--gray-50)">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:48px">
+        <div class="tag">Industries We Serve</div>
+        <h2 class="section-title">Expertise Across Every Sector</h2>
+        <p class="section-sub">From heavy manufacturing to government infrastructure — we bring domain-specific knowledge to every engagement.</p>
+      </div>
+      <div class="industry-grid">
+        <div class="industry-card"><span class="ind-icon">🏭</span><div class="ind-name">Manufacturing</div><div class="ind-count">ISO · IATF · Safety Audits</div></div>
+        <div class="industry-card"><span class="ind-icon">🚗</span><div class="ind-name">Automotive</div><div class="ind-count">IATF 16949 · TS Consulting</div></div>
+        <div class="industry-card"><span class="ind-icon">🏗️</span><div class="ind-name">Construction</div><div class="ind-count">Safety Audits · EIA</div></div>
+        <div class="industry-card"><span class="ind-icon">⚡</span><div class="ind-name">Power & Energy</div><div class="ind-count">NDT · Risk Assessment</div></div>
+        <div class="industry-card"><span class="ind-icon">🚂</span><div class="ind-name">Railways</div><div class="ind-count">Safety · Inspection</div></div>
+        <div class="industry-card"><span class="ind-icon">✈️</span><div class="ind-name">Aviation & Airports</div><div class="ind-count">Safety Management</div></div>
+        <div class="industry-card"><span class="ind-icon">⛏️</span><div class="ind-name">Mining</div><div class="ind-count">Safety · Environmental</div></div>
+        <div class="industry-card"><span class="ind-icon">🏛️</span><div class="ind-name">Government & PSU</div><div class="ind-count">Compliance · Audits</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCREDITATION BAR -->
+  <div class="accred-bar">
+    <div class="container">
+      <div class="accred-inner">
+        <div style="font-family:var(--font-body);font-size:13px;font-weight:700;color:var(--gray-700);margin-right:8px;letter-spacing:.02em">Accredited & Approved by:</div>
+        <div class="accred-item"><div class="accred-dot"></div><span>CIFB (Maharashtra, Haryana, Uttarakhand, Gujarat)</span></div>
+        <div class="accred-item"><div class="accred-dot"></div><span>NABCB</span></div>
+        <div class="accred-item"><div class="accred-dot"></div><span>NSIC</span></div>
+        <div class="accred-item"><div class="accred-dot"></div><span>QCI Empanelled</span></div>
+        <div class="accred-item"><div class="accred-dot"></div><span>NPC</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:48px">
+        <div class="tag">Client Stories</div>
+        <h2 class="section-title">What Our Clients Say</h2>
+      </div>
+      <div class="grid-3">
+        <div class="testi-card">
+          <p class="testi-text">"Working with QMS India Limited has been an outstanding experience. Their team guided us through the entire ISO 9001 certification process with professionalism and deep technical expertise."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AK</div>
+            <div><div class="testi-name">A. Kumar</div><div class="testi-role">GM Operations, Manufacturing Company</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <p class="testi-text">"QMS's fire safety audit was thorough and their recommendations practical. Implementation was smooth. We've now achieved full OISD compliance across all our plants."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">RS</div>
+            <div><div class="testi-name">R. Sharma</div><div class="testi-role">Safety Manager, Energy Sector</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <p class="testi-text">"The NDT team from QMS is highly skilled. They completed our plant shutdown inspection on time and with zero errors. We have been partnering with them for 6 years now."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">PM</div>
+            <div><div class="testi-name">P. Mehta</div><div class="testi-role">Plant Head, Heavy Engineering</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <div class="tag tag-orange" style="margin-bottom:20px">Get Started Today</div>
+      <h2>Ready to Elevate Your Quality Standards?</h2>
+      <p>Talk to our experts. Get a customized proposal within 24 hours — no commitment required.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+        <a href="#" class="btn btn-orange" onclick="showPage('contact')">Request a Consultation</a>
+        <a href="tel:+919982377770" class="btn" style="background:rgba(255,255,255,.12);color:#fff;border:1.5px solid rgba(255,255,255,.4)">📞 Call: +91 99823 77770</a>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- PAGE: ABOUT                                 -->
+<!-- ═══════════════════════════════════════════ -->
+<div id="page-about" class="page">
+
+  <div class="about-hero">
+    <div class="about-hero-bg"></div>
+    <div class="container">
+      <div class="tag tag-orange">Our Story</div>
+      <h1>Built on 28 Years of Trust</h1>
+      <p>From a consultancy firm in Jaipur to a nationally awarded organization serving India's largest brands — this is the QMS India story.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="gap:60px;align-items:start">
+        <div>
+          <div class="tag">Who We Are</div>
+          <h2 class="section-title" style="font-size:32px">India's Trusted Quality Management Partner</h2>
+          <p style="font-family:var(--font-body);color:var(--gray-600);margin-bottom:16px;line-height:1.8;font-weight:400">QMS India Limited has grown from a specialized management consultancy firm into a leading organization in the fields of sustainability, safety, environment, quality, and software solutions. We have expanded our presence across India, serving industries ranging from automotive and mining to aviation and government infrastructure.</p>
+          <p style="font-family:var(--font-body);color:var(--gray-600);margin-bottom:16px;line-height:1.8;font-weight:400">With a team of skilled engineers and certified experts, we excel as service providers in management standards, safety inspection, training, testing, auditing, and software solutions. Our practical and innovative approaches are meticulously tailored to achieve measurable goals, giving our clients a competitive edge.</p>
+          <p style="font-family:var(--font-body);color:var(--gray-600);line-height:1.8;font-weight:400">Our extensive presence spans across India. We specialize in technology-driven solutions that fuel transformation and enhance productivity.</p>
+        </div>
+        <div>
+          <h3 style="font-family:var(--font-head);font-weight:700;font-size:20px;color:var(--navy);margin-bottom:28px;letter-spacing:-.01em">Our Journey</h3>
+          <div class="timeline">
+            <div class="timeline-item"><div class="timeline-year">1998</div><div class="timeline-title">Founded in Jaipur</div><div class="timeline-desc">QMS India Limited established as a management consultancy specializing in quality systems.</div></div>
+            <div class="timeline-item"><div class="timeline-year">2005</div><div class="timeline-title">NDT Services Launch</div><div class="timeline-desc">Expanded into non-destructive testing, adding inspection capabilities for heavy industry.</div></div>
+            <div class="timeline-item"><div class="timeline-year">2010</div><div class="timeline-title">National Presence</div><div class="timeline-desc">Opened offices in Mumbai, Pune, Bengaluru, and Delhi NCR.</div></div>
+            <div class="timeline-item"><div class="timeline-year">2015</div><div class="timeline-title">CIFB Approvals</div><div class="timeline-desc">Received CIFB accreditation across multiple states for safety consulting.</div></div>
+            <div class="timeline-item timeline-award"><div class="timeline-year">2022 ★ AWARD</div><div class="timeline-title">🏆 National Award</div><div class="timeline-desc">Received the Outstanding Entrepreneurship Award from PM Narendra Modi at the National MSME Awards.</div></div>
+            <div class="timeline-item"><div class="timeline-year">2026</div><div class="timeline-title">2,500+ Projects Strong</div><div class="timeline-desc">Continuing to grow with 500+ certified professionals and 12+ industries served.</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION / VISION / POLICY -->
+  <section class="section" style="background:var(--gray-50)">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:48px">
+        <div class="tag">Our Foundation</div>
+        <h2 class="section-title">Mission, Vision & Core Values</h2>
+      </div>
+      <div class="grid-3" style="margin-bottom:40px">
+        <div style="background:#fff;border-radius:var(--radius-md);padding:32px;border:1.5px solid var(--gray-200);text-align:center;transition:all .25s" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <div style="font-size:46px;margin-bottom:16px">🎯</div>
+          <h3 style="font-family:var(--font-head);font-weight:700;font-size:20px;color:var(--navy);margin-bottom:12px;letter-spacing:-.01em">Our Mission</h3>
+          <p style="font-family:var(--font-body);font-size:14.5px;color:var(--gray-600);line-height:1.75;font-weight:400">To deliver innovative, practical, and measurable quality management solutions that help our clients build safer workplaces, achieve certification goals, and create sustainable competitive advantage.</p>
+        </div>
+        <div style="background:linear-gradient(135deg,var(--navy) 0%,#0D2A5A 100%);border-radius:var(--radius-md);padding:32px;text-align:center;position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.1)">
+          <div style="position:absolute;top:-30%;right:-20%;width:60%;height:140%;background:radial-gradient(ellipse,rgba(249,115,22,.15) 0%,transparent 65%);pointer-events:none"></div>
+          <div style="position:relative;z-index:1">
+            <div style="font-size:46px;margin-bottom:16px">🌟</div>
+            <h3 style="font-family:var(--font-head);font-weight:700;font-size:20px;color:#fff;margin-bottom:12px;letter-spacing:-.01em">Our Vision</h3>
+            <p style="font-family:var(--font-body);font-size:14.5px;color:rgba(255,255,255,.7);line-height:1.75;font-weight:400">To be India's most trusted name in quality, safety, and sustainability consulting — recognized for delivering results that transform organizations and protect people.</p>
+          </div>
+        </div>
+        <div style="background:#fff;border-radius:var(--radius-md);padding:32px;border:1.5px solid var(--gray-200);text-align:center;transition:all .25s" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <div style="font-size:46px;margin-bottom:16px">📜</div>
+          <h3 style="font-family:var(--font-head);font-weight:700;font-size:20px;color:var(--navy);margin-bottom:12px;letter-spacing:-.01em">Quality Policy</h3>
+          <p style="font-family:var(--font-body);font-size:14.5px;color:var(--gray-600);line-height:1.75;font-weight:400">We are committed to providing services that consistently exceed client expectations, comply with applicable standards, and drive continual improvement across all our operations.</p>
+        </div>
+      </div>
+      <div class="grid-3">
+        <div class="value-card"><h3>🛡️ Safety & Assurance</h3><p>Safety is our top priority because lives depend on it. We are committed to preventing injuries and ensuring everyone returns home safely.</p></div>
+        <div class="value-card vc-orange"><h3>🤝 Relationships</h3><p>Our business depends on healthy relationships with clients. We build lasting partnerships through transparency and consistent delivery.</p></div>
+        <div class="value-card vc-green"><h3>💡 Innovation</h3><p>We bring fresh thinking and technology-driven approaches to every engagement, helping clients stay ahead of regulatory and market demands.</p></div>
+        <div class="value-card"><h3>✅ Integrity</h3><p>Every audit, report, and recommendation we issue is objective, accurate, and independent — our reputation is built on honesty.</p></div>
+        <div class="value-card vc-orange"><h3>🏅 Excellence</h3><p>We get rewarded for our deliveries. Our job is to make our customers successful — and we hold ourselves to that standard every day.</p></div>
+        <div class="value-card vc-green"><h3>🌱 Sustainability</h3><p>We help clients integrate environmental stewardship and social responsibility into their quality management frameworks.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCREDITATIONS -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:48px">
+        <div class="tag">Credentials</div>
+        <h2 class="section-title">Approvals & Accreditations</h2>
+        <p class="section-sub">Our work is backed by recognized national bodies — giving clients confidence in every service we deliver.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card" style="text-align:center">
+          <div style="font-size:42px;margin-bottom:16px">🏛️</div>
+          <h3 style="font-family:var(--font-head);font-weight:700;color:var(--navy);margin-bottom:10px;letter-spacing:-.01em">CIFB Approved</h3>
+          <p style="font-family:var(--font-body);font-size:14px;color:var(--gray-600);line-height:1.65;font-weight:400">Chief Inspector of Factories approval across Maharashtra, Haryana, Uttarakhand, and Gujarat for safety consulting services.</p>
+        </div>
+        <div class="card" style="text-align:center">
+          <div style="font-size:42px;margin-bottom:16px">🔖</div>
+          <h3 style="font-family:var(--font-head);font-weight:700;color:var(--navy);margin-bottom:10px;letter-spacing:-.01em">NABCB</h3>
+          <p style="font-family:var(--font-body);font-size:14px;color:var(--gray-600);line-height:1.65;font-weight:400">National Accreditation Board for Certification Bodies — validating our certification consulting standards.</p>
+        </div>
+        <div class="card" style="text-align:center">
+          <div style="font-size:42px;margin-bottom:16px">🇮🇳</div>
+          <h3 style="font-family:var(--font-head);font-weight:700;color:var(--navy);margin-bottom:10px;letter-spacing:-.01em">NSIC Registered</h3>
+          <p style="font-family:var(--font-body);font-size:14px;color:var(--gray-600);line-height:1.65;font-weight:400">National Small Industries Corporation registration enabling government procurement opportunities.</p>
+        </div>
+        <div class="card" style="text-align:center">
+          <div style="font-size:42px;margin-bottom:16px">⭐</div>
+          <h3 style="font-family:var(--font-head);font-weight:700;color:var(--navy);margin-bottom:10px;letter-spacing:-.01em">QCI Empanelled</h3>
+          <p style="font-family:var(--font-body);font-size:14px;color:var(--gray-600);line-height:1.65;font-weight:400">Quality Council of India empanelment for training and consulting services across sectors.</p>
+        </div>
+        <div class="card" style="text-align:center">
+          <div style="font-size:42px;margin-bottom:16px">📊</div>
+          <h3 style="font-family:var(--font-head);font-weight:700;color:var(--navy);margin-bottom:10px;letter-spacing:-.01em">NPC Approved</h3>
+          <p style="font-family:var(--font-body);font-size:14px;color:var(--gray-600);line-height:1.65;font-weight:400">National Productivity Council approval for productivity and quality consulting services.</p>
+        </div>
+        <div class="card" style="text-align:center;background:linear-gradient(135deg,rgba(245,200,66,.08),rgba(146,64,14,.04));border:1.5px solid rgba(245,200,66,.3);position:relative;overflow:hidden">
+          <div style="position:absolute;top:-30%;right:-20%;width:60%;height:140%;background:radial-gradient(ellipse,rgba(245,200,66,.12) 0%,transparent 65%);pointer-events:none"></div>
+          <div style="position:relative;z-index:1">
+            <div style="font-size:42px;margin-bottom:16px">🏆</div>
+            <h3 style="font-family:var(--font-head);font-weight:700;color:var(--gold-deep);margin-bottom:10px;letter-spacing:-.01em">National Award 2022</h3>
+            <p style="font-family:var(--font-body);font-size:14px;color:var(--gray-700);line-height:1.65;font-weight:400">Outstanding Entrepreneurship Award presented by PM Narendra Modi — India's highest recognition for MSME excellence.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-about -->
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- PAGE: SERVICES                              -->
+<!-- ═══════════════════════════════════════════ -->
+<div id="page-services" class="page">
+
+  <div class="services-hero">
+    <div class="services-hero-bg"></div>
+    <div class="container">
+      <div class="tag">Complete Service Portfolio</div>
+      <h1>30+ Services.<br>One Trusted Partner.</h1>
+      <p>Expert consulting, inspection, auditing, and training across quality, safety, environment, and technology domains.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- ISO -->
+      <div class="service-detail-card">
+        <div class="sdc-header"><span>🏆</span><h3>ISO & Management Standards Consulting</h3></div>
+        <div class="sdc-body">
+          <p>We provide full-scope support for all ISO and management system standards — from initial gap analysis through internal audits, training, documentation, and certification audit preparation.</p>
+          <ul class="service-list">
+            <li>ISO 9001:2015 — Quality Management Systems</li>
+            <li>ISO 14001:2015 — Environmental Management</li>
+            <li>ISO 45001:2018 — Occupational Health & Safety</li>
+            <li>IATF 16949:2016 — Automotive Quality</li>
+            <li>ISO 50001 — Energy Management</li>
+            <li>ISO 22000 — Food Safety Management</li>
+            <li>ISO 27001 — Information Security</li>
+            <li>IMS (Integrated Management Systems)</li>
+            <li>SA 8000 — Social Accountability</li>
+            <li>BIS / IS Standards Consulting</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SAFETY (brutalist) -->
+      <div class="service-detail-card sdc-safety">
+        <div class="sdc-header"><span>🔥</span><h3>Safety, Fire & Risk Services</h3></div>
+        <div class="sdc-body">
+          <p>Comprehensive safety consulting and risk management aligned with Indian statutory requirements (Factories Act, OISD, PNGRB) and international standards (NFPA, NBC).</p>
+          <ul class="service-list">
+            <li>Fire Safety Audits (OISD, NBC Standards)</li>
+            <li>PNGRB Safety Consulting</li>
+            <li>Process Hazard Analysis (HAZOP)</li>
+            <li>Risk Assessment & Management</li>
+            <li>Emergency Response Planning</li>
+            <li>Electrical Safety Audits</li>
+            <li>Construction Safety Plans</li>
+            <li>Permit-to-Work Systems</li>
+            <li>Incident Investigation</li>
+            <li>BBSO (Behaviour-Based Safety)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SUSTAINABILITY (forest green) -->
+      <div class="service-detail-card sdc-green">
+        <div class="sdc-header"><span>🌱</span><h3>Environment & Sustainability Services</h3></div>
+        <div class="sdc-body">
+          <p>End-to-end environmental compliance, ESG reporting, and forestry-linked sustainability services — including our flagship green initiatives across Rajasthan.</p>
+          <ul class="service-list">
+            <li>Environment Impact Assessment (EIA)</li>
+            <li>ESG & Sustainability Reporting</li>
+            <li>Environmental Compliance Audits</li>
+            <li>CSR Consulting & Reporting</li>
+            <li>Carbon Footprint Assessment</li>
+            <li>Afforestation & Forestry Projects (Rajasthan)</li>
+            <li>Waste Management Consulting</li>
+            <li>Water & Air Quality Monitoring</li>
+            <li>GIS Mapping & Survey</li>
+            <li>Green Building Certification Support</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- NDT -->
+      <div class="service-detail-card">
+        <div class="sdc-header"><span>🔬</span><h3>NDT & Inspection Services</h3></div>
+        <div class="sdc-body">
+          <p>ASNT-qualified NDT professionals offering the full spectrum of non-destructive testing for pressure vessels, pipelines, structural components, and critical equipment.</p>
+          <ul class="service-list">
+            <li>Ultrasonic Testing (UT)</li>
+            <li>Radiographic Testing (RT)</li>
+            <li>Magnetic Particle Testing (MT)</li>
+            <li>Liquid Penetrant Testing (PT)</li>
+            <li>Visual Testing (VT)</li>
+            <li>Phased Array Ultrasonic Testing (PAUT)</li>
+            <li>Time of Flight Diffraction (TOFD)</li>
+            <li>Eddy Current Testing (ECT)</li>
+            <li>Corrosion Under Insulation (CUI) Inspection</li>
+            <li>Drone-Assisted Inspection</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- AUDITS -->
+      <div class="service-detail-card">
+        <div class="sdc-header"><span>📋</span><h3>Audits, Surveys & Assessments</h3></div>
+        <div class="sdc-body">
+          <p>Independent, objective audit and assessment services to help organizations identify gaps, ensure compliance, and continuously improve.</p>
+          <ul class="service-list">
+            <li>Third-Party Quality Audits</li>
+            <li>Supplier / Vendor Development Audits</li>
+            <li>Energy Audits (BEE Certified)</li>
+            <li>Social Compliance Audits</li>
+            <li>Product Compliance & Inspection</li>
+            <li>Pre-Shipment Inspections</li>
+            <li>Factory Acceptance Testing (FAT)</li>
+            <li>Plant & Equipment Condition Assessment</li>
+            <li>Lender's Independent Engineer Services</li>
+            <li>Statutory Compliance Review</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SOFTWARE (digital dark mode + neon) -->
+      <div class="service-detail-card sdc-digital">
+        <div class="sdc-header"><span>💻</span><h3>Software & Digital Solutions</h3></div>
+        <div class="sdc-body">
+          <p>Technology platforms designed to digitize and streamline quality management, EHS compliance, and audit processes for modern organizations.</p>
+          <ul class="service-list">
+            <li>Quality Management System (QMS) Software</li>
+            <li>EHS Compliance Management Platform</li>
+            <li>Document Control & Management</li>
+            <li>Non-Conformance & CAPA Tracking</li>
+            <li>Audit Management Software</li>
+            <li>Training Records Management</li>
+            <li>KPI Dashboards & Reporting</li>
+            <li>Custom ERP Integrations</li>
+            <li>IoT Sensor Integration</li>
+            <li>AI-Powered Audit Analytics</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section style="background:linear-gradient(135deg,var(--navy) 0%,#0D2A5A 100%);padding:72px 0;text-align:center;position:relative;overflow:hidden">
+    <div style="position:absolute;inset:0;background:radial-gradient(circle at 70% 50%,rgba(249,115,22,.18) 0%,transparent 50%);z-index:0"></div>
+    <div class="container" style="position:relative;z-index:1">
+      <h2 style="font-family:var(--font-head);font-weight:800;font-size:clamp(28px,4vw,38px);color:#fff;margin-bottom:14px;letter-spacing:-.025em">Need a Custom Service Package?</h2>
+      <p style="font-family:var(--font-body);color:rgba(255,255,255,.7);font-size:16.5px;margin-bottom:32px;font-weight:400">We combine services across domains for integrated solutions. Talk to us about your specific requirements.</p>
+      <a href="#" class="btn btn-orange" onclick="showPage('contact')">Request a Custom Quote</a>
+    </div>
+  </section>
+
+</div><!-- /page-services -->
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- PAGE: CLIENTS                               -->
+<!-- ═══════════════════════════════════════════ -->
+<div id="page-clients" class="page">
+
+  <div class="clients-hero">
+    <div class="container">
+      <div class="tag">Our Clientele</div>
+      <h1>India's Best Choose QMSIL</h1>
+      <p>Mahindra, Eicher, Hindustan Zinc, Godrej — our client list reflects our reputation for delivering results across India's most demanding industries.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="client-sector">
+        <div class="sector-title">🚗 Automotive & Engineering</div>
+        <div class="client-name-grid">
+          <div class="client-name-item">Mahindra & Mahindra</div>
+          <div class="client-name-item">Eicher Motors</div>
+          <div class="client-name-item">Ashok Leyland</div>
+          <div class="client-name-item">Hero MotoCorp</div>
+          <div class="client-name-item">Daikin Industries</div>
+          <div class="client-name-item">Bharat Forge</div>
+        </div>
+      </div>
+
+      <div class="client-sector">
+        <div class="sector-title">⛏️ Mining & Metals</div>
+        <div class="client-name-grid">
+          <div class="client-name-item">Hindustan Zinc</div>
+          <div class="client-name-item">Vedanta Resources</div>
+          <div class="client-name-item">Ambuja Cement</div>
+          <div class="client-name-item">JK Lakshmi Cement</div>
+          <div class="client-name-item">UltraTech Cement</div>
+          <div class="client-name-item">ACC Limited</div>
+        </div>
+      </div>
+
+      <div class="client-sector">
+        <div class="sector-title">⚡ Power & Energy</div>
+        <div class="client-name-grid">
+          <div class="client-name-item">NTPC Limited</div>
+          <div class="client-name-item">BHEL</div>
+          <div class="client-name-item">Power Grid Corporation</div>
+          <div class="client-name-item">Adani Power</div>
+          <div class="client-name-item">Torrent Power</div>
+          <div class="client-name-item">CESC Limited</div>
+        </div>
+      </div>
+
+      <div class="client-sector">
+        <div class="sector-title">🏛️ Government & Infrastructure</div>
+        <div class="client-name-grid">
+          <div class="client-name-item">Jaipur International Airport</div>
+          <div class="client-name-item">Indian Railways (various zones)</div>
+          <div class="client-name-item">NHAI</div>
+          <div class="client-name-item">State PWD Departments</div>
+          <div class="client-name-item">Urban Development Authorities</div>
+          <div class="client-name-item">RIICO</div>
+        </div>
+      </div>
+
+      <div class="client-sector">
+        <div class="sector-title">🏭 FMCG & Consumer Goods</div>
+        <div class="client-name-grid">
+          <div class="client-name-item">Godrej Industries</div>
+          <div class="client-name-item">ITC Limited</div>
+          <div class="client-name-item">Britannia Industries</div>
+          <div class="client-name-item">Dabur India</div>
+          <div class="client-name-item">Emami</div>
+          <div class="client-name-item">Patanjali Ayurved</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</div><!-- /page-clients -->
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- PAGE: TRAINING                              -->
+<!-- ═══════════════════════════════════════════ -->
+<div id="page-training" class="page">
+
+  <div class="clients-hero">
+    <div class="container">
+      <div class="tag">Professional Development</div>
+      <h1>Training Courses</h1>
+      <p>IRCA-registered lead auditor courses, internal auditor workshops, and specialized technical training delivered by industry-certified professionals.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <div style="margin-bottom:40px">
+        <div class="tag">Lead Auditor Courses</div>
+        <h2 class="section-title" style="font-size:28px">International Certification Programs</h2>
+      </div>
+      <div class="grid-3" style="margin-bottom:56px">
+        <div class="training-card">
+          <span class="training-badge tb-classroom">Classroom / Online</span>
+          <h3>ISO 9001 Lead Auditor</h3>
+          <p>IRCA-registered 5-day course covering audit planning, conducting audits, and certification requirements for QMS.</p>
+          <div class="training-meta">
+            <span class="tmeta">⏱️ 5 Days</span>
+            <span class="tmeta">🏅 IRCA Certified</span>
+            <span class="tmeta">📜 Certificate Awarded</span>
+          </div>
+        </div>
+        <div class="training-card">
+          <span class="training-badge tb-classroom">Classroom / Online</span>
+          <h3>ISO 14001 Lead Auditor</h3>
+          <p>Comprehensive EMS lead auditor course covering environmental legislation, audit techniques, and reporting.</p>
+          <div class="training-meta">
+            <span class="tmeta">⏱️ 5 Days</span>
+            <span class="tmeta">🏅 IRCA Certified</span>
+            <span class="tmeta">📜 Certificate Awarded</span>
+          </div>
+        </div>
+        <div class="training-card">
+          <span class="training-badge tb-classroom">Classroom / Online</span>
+          <h3>ISO 45001 Lead Auditor</h3>
+          <p>OHS management system lead auditor training focusing on risk-based thinking and legal compliance frameworks.</p>
+          <div class="training-meta">
+            <span class="tmeta">⏱️ 5 Days</span>
+            <span class="tmeta">🏅 IRCA Certified</span>
+            <span class="tmeta">📜 Certificate Awarded</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:40px">
+        <div class="tag">Internal Auditor & Awareness</div>
+        <h2 class="section-title" style="font-size:28px">Foundation & Skills Programs</h2>
+      </div>
+      <div class="grid-3" style="margin-bottom:56px">
+        <div class="training-card">
+          <span class="training-badge tb-onsite">On-Site / Online</span>
+          <h3>ISO 9001 Internal Auditor</h3>
+          <p>2-day hands-on course for teams responsible for conducting internal audits and driving continual improvement.</p>
+          <div class="training-meta"><span class="tmeta">⏱️ 2 Days</span><span class="tmeta">📜 Certificate</span></div>
+        </div>
+        <div class="training-card">
+          <span class="training-badge tb-onsite">On-Site</span>
+          <h3>IATF 16949 Awareness</h3>
+          <p>Understanding core tools — APQP, PPAP, FMEA, MSA, SPC — for automotive quality management teams.</p>
+          <div class="training-meta"><span class="tmeta">⏱️ 1–2 Days</span><span class="tmeta">📜 Certificate</span></div>
+        </div>
+        <div class="training-card">
+          <span class="training-badge tb-onsite">On-Site / Online</span>
+          <h3>Safety Awareness & OHSAS</h3>
+          <p>Statutory safety requirements, incident investigation, risk assessment, and permit-to-work systems.</p>
+          <div class="training-meta"><span class="tmeta">⏱️ 1–3 Days</span><span class="tmeta">📜 Certificate</span></div>
+        </div>
+      </div>
+
+      <div style="background:linear-gradient(135deg,var(--gray-50) 0%,rgba(27,94,234,.04) 100%);border:1.5px solid var(--gray-200);border-radius:var(--radius-lg);padding:40px;display:flex;align-items:center;gap:32px;flex-wrap:wrap">
+        <div style="flex:1;min-width:240px">
+          <h3 style="font-family:var(--font-head);font-weight:700;font-size:22px;color:var(--navy);margin-bottom:10px;letter-spacing:-.01em">Custom On-Site Training</h3>
+          <p style="font-family:var(--font-body);font-size:15px;color:var(--gray-600);line-height:1.7;font-weight:400">We design and deliver tailored training programs at your facility — for any team size, any standard, any industry. Get in touch to discuss your requirements.</p>
+        </div>
+        <a href="#" class="btn btn-primary" onclick="showPage('contact')">Enquire About Training</a>
+      </div>
+
+    </div>
+  </section>
+
+</div><!-- /page-training -->
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- PAGE: CONTACT                               -->
+<!-- ═══════════════════════════════════════════ -->
+<div id="page-contact" class="page">
+
+  <div class="contact-hero">
+    <div class="container">
+      <div class="tag">Talk to an Expert</div>
+      <h1 style="font-family:var(--font-head);font-weight:800;font-size:clamp(32px,4.5vw,52px);color:#fff;margin-bottom:18px;letter-spacing:-.025em;line-height:1.1">Get in Touch</h1>
+      <p style="font-family:var(--font-body);font-size:17px;color:rgba(255,255,255,.7);max-width:560px;line-height:1.7;font-weight:400">We respond within 24 hours. Tell us your requirement and we'll send you a customized proposal — no commitment needed.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="gap:48px;align-items:start">
+
+        <!-- FORM -->
+        <div class="contact-form-wrap">
+          <h2 style="font-family:var(--font-head);font-weight:700;font-size:24px;color:var(--navy);margin-bottom:24px;letter-spacing:-.01em">Send Us a Message</h2>
+          <form onsubmit="handleFormSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Full Name *</label>
+                <input type="text" id="fname" name="name" placeholder="Your full name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="fcompany">Company Name</label>
+                <input type="text" id="fcompany" name="company" placeholder="Your organization" autocomplete="organization">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="femail">Email Address *</label>
+                <input type="email" id="femail" name="email" placeholder="you@company.com" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="fphone">Mobile Number *</label>
+                <input type="tel" id="fphone" name="phone" placeholder="+91 00000 00000" required autocomplete="tel" inputmode="tel">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fservice">Service of Interest</label>
+              <select id="fservice" name="service">
+                <option value="">— Select a service —</option>
+                <option>ISO Certification Consulting</option>
+                <option>Fire Safety Audit</option>
+                <option>NDT & Inspection</option>
+                <option>Environmental Services</option>
+                <option>Training & Development</option>
+                <option>Software Solutions</option>
+                <option>Third-Party Audits</option>
+                <option>Other / Multiple Services</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="fmsg">Your Message</label>
+              <textarea id="fmsg" name="message" placeholder="Tell us about your requirement — industry, scale, timeline, location..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:14px">Send Message →</button>
+          </form>
+          <div id="formSuccess" style="display:none;margin-top:16px;background:rgba(22,163,74,.08);border:1px solid rgba(22,163,74,.3);border-radius:var(--radius-sm);padding:16px;color:var(--green);font-family:var(--font-body);font-weight:600">✅ Thank you! We'll get back to you within 24 hours.</div>
+        </div>
+
+        <!-- INFO -->
+        <div>
+          <h2 style="font-family:var(--font-head);font-weight:700;font-size:24px;color:var(--navy);margin-bottom:24px;letter-spacing:-.01em">Contact Information</h2>
+
+          <div class="contact-info-item">
+            <div class="ci-icon">📞</div>
+            <div class="ci-text"><small>Phone</small><a href="tel:+919982377770">+91 99823 77770</a></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon">📧</div>
+            <div class="ci-text"><small>Email</small><a href="mailto:desk@qmsil.co.in">desk@qmsil.co.in</a></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon">💬</div>
+            <div class="ci-text"><small>WhatsApp</small><a href="https://wa.me/919982377770">+91 99823 77770</a></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon">🌐</div>
+            <div class="ci-text"><small>Website</small><span>qmsil.co.in</span></div>
+          </div>
+
+          <h3 style="font-family:var(--font-head);font-weight:700;font-size:18px;color:var(--navy);margin:32px 0 20px;letter-spacing:-.01em">Our Offices</h3>
+
+          <div class="grid-2" style="gap:12px">
+            <div class="office-card office-hq">
+              <h4>Corporate Office</h4>
+              <p>94/26, 2nd Floor, Vijay Path, Mansarovar, Jaipur — Rajasthan</p>
+            </div>
+            <div class="office-card">
+              <h4>Mumbai Office</h4>
+              <p>C-502, Greenwood Apartment, Chakala, Andheri Kurla Road, Andheri East, Mumbai — Maharashtra</p>
+            </div>
+            <div class="office-card">
+              <h4>Pune Office</h4>
+              <p>14, A-Wing, Kamala Cross Roads, 2nd Floor, Opp. P.C.M.C. Building, Pimpri, Pune — Maharashtra</p>
+            </div>
+            <div class="office-card">
+              <h4>Bengaluru Office</h4>
+              <p>Anand, Second Floor, 36, 2nd Cross, 10th Main, I Block, III Stage, Basaveshwaranagar, Bengaluru — Karnataka</p>
+            </div>
+            <div class="office-card">
+              <h4>Delhi NCR</h4>
+              <p>Coming Soon</p>
+            </div>
+            <div class="office-card">
+              <h4>Hyderabad</h4>
+              <p>Coming Soon</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-contact -->
+
+<!-- FOOTER (shared) -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-mark"><span>QMS</span></div>
+          <div class="logo-text" style="color:#fff">QMS India Limited<small>Quality · Safety · Sustainability</small></div>
+        </div>
+        <p>India's trusted partner for ISO certification, safety audits, NDT inspection, and sustainability consulting since 1998.</p>
+        <div class="accred-badges">
+          <span class="abadge">CIFB</span>
+          <span class="abadge">NABCB</span>
+          <span class="abadge">NSIC</span>
+          <span class="abadge">QCI</span>
+          <span class="abadge">NPC</span>
+          <span class="abadge">🏆 PM Award 2022</span>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#" onclick="showPage('services')">ISO Consulting</a></li>
+          <li><a href="#" onclick="showPage('services')">Safety Audits</a></li>
+          <li><a href="#" onclick="showPage('services')">NDT & Inspection</a></li>
+          <li><a href="#" onclick="showPage('services')">Environmental Services</a></li>
+          <li><a href="#" onclick="showPage('services')">Software Solutions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#" onclick="showPage('about')">About Us</a></li>
+          <li><a href="#" onclick="showPage('clients')">Our Clients</a></li>
+          <li><a href="#" onclick="showPage('training')">Training</a></li>
+          <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+919982377770">+91 99823 77770</a></li>
+          <li><a href="mailto:desk@qmsil.co.in">desk@qmsil.co.in</a></li>
+          <li><a href="https://wa.me/919982377770">WhatsApp Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 QMS India Limited. All rights reserved. | Founded 1998 | Jaipur, Rajasthan</p>
+      <p>ISO Consulting · Safety Audits · NDT Inspection · Training · Software Solutions</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT BUTTON -->
+<a href="https://wa.me/919982377770" class="wa-float wa-float-desk" title="Chat on WhatsApp" target="_blank" rel="noopener">💬</a>
+
+<!-- MOBILE BOTTOM BAR -->
+<div class="mobile-bar">
+  <div class="mobile-bar-inner">
+    <a href="tel:+919982377770" class="mbar-btn call">
+      <span class="mbar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+      <span>Call</span>
+    </a>
+    <a href="https://wa.me/919982377770" class="mbar-btn whatsapp">
+      <span class="mbar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span>
+      <span>WhatsApp</span>
+    </a>
+    <a href="#" class="mbar-btn quote" onclick="showPage('contact')">
+      <span class="mbar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M9 12h6"/><path d="M9 16h6"/></svg></span>
+      <span>Get Quote</span>
+    </a>
+  </div>
+</div>
+
+<script>
+function showPage(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  const target=document.getElementById('page-'+id);
+  if(target){target.classList.add('active');window.scrollTo({top:0,behavior:'smooth'})}
+}
+function setActive(el){
+  document.querySelectorAll('.nav-link').forEach(l=>l.classList.remove('active'));
+  el.classList.add('active');
+}
+function toggleMenu(){
+  const h=document.getElementById('hamburger');
+  const m=document.getElementById('mobileMenu');
+  h.classList.toggle('open');
+  m.classList.toggle('open');
+  document.body.style.overflow=m.classList.contains('open')?'hidden':'';
+}
+function closeMenu(){
+  document.getElementById('hamburger').classList.remove('open');
+  document.getElementById('mobileMenu').classList.remove('open');
+  document.body.style.overflow='';
+}
+function handleFormSubmit(e){
+  e.preventDefault();
+  document.getElementById('formSuccess').style.display='block';
+  e.target.reset();
+  setTimeout(()=>document.getElementById('formSuccess').style.display='none',6000);
+}
+// Fade-in on scroll
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')});
+},{threshold:.12});
+document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
+// Close mobile menu on resize
+window.addEventListener('resize',()=>{if(window.innerWidth>768)closeMenu()});
+</script>
+</body>
+</html>
